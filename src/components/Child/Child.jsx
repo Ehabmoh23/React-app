@@ -13,7 +13,6 @@ class Child extends Component {
                 <h3>Productmodel :{model}</h3>
                 <button className='btn btn-dark p-2 mt-1 w-100' onClick={()=>this.props.updatePriceHandle(this.props.index)}>increase</button>
                 <button className='btn btn-dark p-2 mt-1 w-100' onClick={()=>this.props.deleteProductHandle(this.props.index)}>delete</button>
-               <button>aaa</button>
                 </div>
                 </div>
             </div>
