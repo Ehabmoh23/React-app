@@ -3,12 +3,12 @@ import photo from "../../../images/1.jpg";
 const Home = () => {
   return (
     <div className="container">
-      <div className="row  d-flex justify-content-center align items-center mt-5">
+      <div className="row  mt-5">
         <div className="col-md-7 ">
           <img src={photo} className="img-fluid w-75" alt="" />
         </div>
         <div className="col-md-5 text-center mt-5">
-          <h3 className="text-white">31th octobar 2018s</h3>
+          <h3 className="text-white mt-5">31th octobar 2018s</h3>
           <h1 style={{ color: "#f7ea66" }} className="fs-1 fw-bolder">
             Halloween Party
           </h1>

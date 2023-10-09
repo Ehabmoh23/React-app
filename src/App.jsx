@@ -11,6 +11,7 @@ import Artist from './app2/Components/Artist/artist';
 
 const routes = createBrowserRouter([{
  path:"", element:<LayOut/>,children:[
+  {path:"/",element:<Home/>},
   {path:"home",element:<Home/>},
   {path:"about",element:<About/>},
   {path:"gallery",element:<Gallery/>},
